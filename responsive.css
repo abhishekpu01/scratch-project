@@ -1,0 +1,213 @@
+@media only screen and (max-width: 1000px){
+    nav{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin:auto;
+        flex-wrap:wrap;
+    }
+    .logo{
+        font-size:2rem;
+    }
+.nav-list{
+    justify-content:space-between;
+    margin-top:1.5rem;
+}
+.list-items a{
+    font-size:1.2rem;
+    margin:0 40px;
+}
+.header-heading{
+    font-size:3rem;
+}
+.header-img{ 
+    height:70vh;
+}
+}
+
+@media only screen and (max-width: 800px){
+    .list-items a{
+        font-size:0.8rem;
+        margin:0 15px;
+    }
+    nav{
+        max-width:90% !important;
+    }
+    .nav-list{
+        margin-top:0.5rem;
+    }
+    .logo{
+        display:flex;
+        justify-content:center;
+    }
+    .header-img{
+        width:75%;
+        height:70vh;
+    }
+    .fab{
+        font-size:28px;
+    } 
+    .section-heading{
+        font-size:1.8rem !important;
+    }
+    .course-heading{
+        font-size:1.8rem;
+    }
+    .section-para{
+        font-size:1rem;
+    } 
+    .card{
+        width:80%;
+    }
+  .team{
+      grid-template-rows:1fr 1fr 1fr 1fr;
+      grid-template-columns: repeat(1fr , 4);
+      grid-template-areas:
+      "ap ap ap ap"
+      "bb bb bb bb"
+      "rs rs rs rs"
+      "vc vc vc vc";
+  }
+  .card-1{
+      grid-area: ap;
+  }
+  .card-2{
+    grid-area: bb;
+  }
+   .card-3{
+      grid-area: rs;
+  }
+  .card-4{
+    grid-area: vc;
+  }
+   .team-img{
+       width:35vw !important;
+   }
+   }
+@media only screen and (max-width: 500px){
+    .section-heading{
+        font-size:1rem !important;
+    }
+    .course-heading{
+        font-size:1rem;
+    }
+    .section-para{
+        font-size:0.6rem !important;
+    } 
+}
+@media only screen and (max-width: 330px){
+    .list-items a{
+        margin:0 8px;
+    }
+    .header-img{
+        width:100%;
+        height:50vh;
+    }
+    .card-para{
+        font-size:0.7rem;
+    }
+    .card-heading{
+        font-size:0.8rem;
+        text-align:center;
+    }
+    .card-img{
+        max-width:90%;
+    }
+   
+}
+@media only screen and (max-width: 450px){
+    .header-img{
+        width:100%;
+        height:60vh !important;
+    }
+    .fab{
+        margin-top:20px;
+        margin-left:10px;
+        font-size:25px;
+    }
+    .card-para{
+        font-size:1rem;
+    }
+    .card-heading{
+        font-size:1.3rem;
+    }
+    .team-img{
+        width:50vw !important;
+        height:25vh;
+    }
+    .team{
+        margin-top:4.5rem;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .header{
+        flex-direction:column-reverse;
+        align-items:center;
+    }
+    .right{
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+        width:100%;
+    }
+    .header-img{
+        height:80vh;
+        width:80%;
+    }
+    .section-heading{
+        font-size:2.5rem !important;
+    }
+    .course-heading{
+        font-size:2.5rem;
+    }
+    .section-para{
+        font-size:1.2rem !important;
+    }
+    .card-img{
+        max-width:80%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .team{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .team-img{
+        width:30vw;
+        height:30vh;
+    }
+}
+@media only screen and (max-width: 750px){
+    .contact{
+        flex-direction:column;
+        align-items:center;
+    }
+    .contact-img{
+        display:none;
+    }
+    .contact-right{
+        width:80%;
+        margin-top:2rem;
+    }
+    input,textarea{
+        width:45vw;
+    }
+    .contact-heading{
+        font-size:1.5rem;
+    }
+    .contact-para{
+        font-size:1rem;
+        display:block;
+    }
+    .contact-left{
+        margin-top:0 !important;
+        width:80%;
+        text-align:center;
+    }
+    .footer-section{
+        flex-direction:column;
+    }
+    .footer-list , .sec-1{
+        margin-top:2rem;
+    }
+}
